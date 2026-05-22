@@ -94,3 +94,7 @@ Once these two templates are reflex, the natural follow-ups are:
   isn't about a target value).
 
 The shape stays the same; only the predicate changes.
+
+## Day 10 (2026-05-21)
+
+- Added #278, #34, #69, #367 — predicates over the answer space.
