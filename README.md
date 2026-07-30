@@ -1,10 +1,10 @@
 # dsa-leetcode
 
 My personal LeetCode solution log. All solutions are in **Python 3**, written in
-the exact `class Solution` template LeetCode expects — so each file can be
-pasted into the LeetCode editor and submitted directly.
+the exact `class Solution` template LeetCode expects — each file can be pasted
+into the LeetCode editor and submitted directly.
 
-**Problems solved: 69**
+**Problems solved: 96**
 
 ## Structure
 
@@ -24,19 +24,24 @@ dsa-leetcode/
 
 ## Solution log
 
-### Array  (`arrays/`)  — 7 problems
+### Array  (`arrays/`)  — 12 problems
 
 | # | Problem | File |
 |---|---------|------|
 | 1 | Two Sum | [arrays/0001_two_sum.py](arrays/0001_two_sum.py) |
 | 26 | Remove Duplicates From Sorted Array | [arrays/0026_remove_duplicates_from_sorted_array.py](arrays/0026_remove_duplicates_from_sorted_array.py) |
+| 27 | Remove Element | [arrays/0027_remove_element.py](arrays/0027_remove_element.py) |
 | 66 | Plus One | [arrays/0066_plus_one.py](arrays/0066_plus_one.py) |
 | 88 | Merge Sorted Array | [arrays/0088_merge_sorted_array.py](arrays/0088_merge_sorted_array.py) |
+| 118 | Pascals Triangle | [arrays/0118_pascals_triangle.py](arrays/0118_pascals_triangle.py) |
 | 121 | Best Time To Buy And Sell Stock | [arrays/0121_best_time_to_buy_and_sell_stock.py](arrays/0121_best_time_to_buy_and_sell_stock.py) |
 | 217 | Contains Duplicate | [arrays/0217_contains_duplicate.py](arrays/0217_contains_duplicate.py) |
+| 268 | Missing Number | [arrays/0268_missing_number.py](arrays/0268_missing_number.py) |
+| 448 | Find All Numbers Disappeared In An Array | [arrays/0448_find_all_numbers_disappeared_in_an_array.py](arrays/0448_find_all_numbers_disappeared_in_an_array.py) |
 | 485 | Max Consecutive Ones | [arrays/0485_max_consecutive_ones.py](arrays/0485_max_consecutive_ones.py) |
+| 1929 | Concatenation Of Array | [arrays/1929_concatenation_of_array.py](arrays/1929_concatenation_of_array.py) |
 
-### Hash Map / Set  (`hashing/`)  — 8 problems
+### Hash Map / Set  (`hashing/`)  — 12 problems
 
 | # | Problem | File |
 |---|---------|------|
@@ -46,10 +51,14 @@ dsa-leetcode/
 | 202 | Happy Number | [hashing/0202_happy_number.py](hashing/0202_happy_number.py) |
 | 205 | Isomorphic Strings | [hashing/0205_isomorphic_strings.py](hashing/0205_isomorphic_strings.py) |
 | 219 | Contains Duplicate II | [hashing/0219_contains_duplicate_ii.py](hashing/0219_contains_duplicate_ii.py) |
+| 290 | Word Pattern | [hashing/0290_word_pattern.py](hashing/0290_word_pattern.py) |
 | 349 | Intersection Of Two Arrays | [hashing/0349_intersection_of_two_arrays.py](hashing/0349_intersection_of_two_arrays.py) |
+| 350 | Intersection Of Two Arrays II | [hashing/0350_intersection_of_two_arrays_ii.py](hashing/0350_intersection_of_two_arrays_ii.py) |
 | 383 | Ransom Note | [hashing/0383_ransom_note.py](hashing/0383_ransom_note.py) |
+| 771 | Jewels And Stones | [hashing/0771_jewels_and_stones.py](hashing/0771_jewels_and_stones.py) |
+| 2032 | Two Out Of Three | [hashing/2032_two_out_of_three.py](hashing/2032_two_out_of_three.py) |
 
-### String  (`strings/`)  — 5 problems
+### String  (`strings/`)  — 8 problems
 
 | # | Problem | File |
 |---|---------|------|
@@ -57,26 +66,35 @@ dsa-leetcode/
 | 28 | Find The Index Of The First Occurrence In A String | [strings/0028_find_the_index_of_the_first_occurrence_in_a_string.py](strings/0028_find_the_index_of_the_first_occurrence_in_a_string.py) |
 | 58 | Length Of Last Word | [strings/0058_length_of_last_word.py](strings/0058_length_of_last_word.py) |
 | 242 | Valid Anagram | [strings/0242_valid_anagram.py](strings/0242_valid_anagram.py) |
+| 345 | Reverse Vowels Of A String | [strings/0345_reverse_vowels_of_a_string.py](strings/0345_reverse_vowels_of_a_string.py) |
+| 387 | First Unique Character In A String | [strings/0387_first_unique_character_in_a_string.py](strings/0387_first_unique_character_in_a_string.py) |
+| 459 | Repeated Substring Pattern | [strings/0459_repeated_substring_pattern.py](strings/0459_repeated_substring_pattern.py) |
 | 1768 | Merge Strings Alternately | [strings/1768_merge_strings_alternately.py](strings/1768_merge_strings_alternately.py) |
 
-### Two Pointers  (`two_pointers/`)  — 5 problems
+### Two Pointers  (`two_pointers/`)  — 9 problems
 
 | # | Problem | File |
 |---|---------|------|
+| 11 | Container With Most Water | [two_pointers/0011_container_with_most_water.py](two_pointers/0011_container_with_most_water.py) |
 | 15 | 3sum | [two_pointers/0015_3sum.py](two_pointers/0015_3sum.py) |
 | 125 | Valid Palindrome | [two_pointers/0125_valid_palindrome.py](two_pointers/0125_valid_palindrome.py) |
 | 167 | Two Sum II | [two_pointers/0167_two_sum_ii.py](two_pointers/0167_two_sum_ii.py) |
 | 283 | Move Zeroes | [two_pointers/0283_move_zeroes.py](two_pointers/0283_move_zeroes.py) |
 | 344 | Reverse String | [two_pointers/0344_reverse_string.py](two_pointers/0344_reverse_string.py) |
+| 392 | Is Subsequence | [two_pointers/0392_is_subsequence.py](two_pointers/0392_is_subsequence.py) |
+| 680 | Valid Palindrome II | [two_pointers/0680_valid_palindrome_ii.py](two_pointers/0680_valid_palindrome_ii.py) |
+| 977 | Squares Of A Sorted Array | [two_pointers/0977_squares_of_a_sorted_array.py](two_pointers/0977_squares_of_a_sorted_array.py) |
 
-### Sliding Window  (`sliding_window/`)  — 4 problems
+### Sliding Window  (`sliding_window/`)  — 6 problems
 
 | # | Problem | File |
 |---|---------|------|
 | 3 | Longest Substring Without Repeating Characters | [sliding_window/0003_longest_substring_without_repeating_characters.py](sliding_window/0003_longest_substring_without_repeating_characters.py) |
 | 643 | Maximum Average Subarray I | [sliding_window/0643_maximum_average_subarray_i.py](sliding_window/0643_maximum_average_subarray_i.py) |
+| 1456 | Maximum Number Of Vowels In A Substring | [sliding_window/1456_maximum_number_of_vowels_in_a_substring.py](sliding_window/1456_maximum_number_of_vowels_in_a_substring.py) |
 | 1876 | Substrings Of Size Three With Distinct Characters | [sliding_window/1876_substrings_of_size_three_with_distinct_characters.py](sliding_window/1876_substrings_of_size_three_with_distinct_characters.py) |
 | 1984 | Minimum Difference Between Highest And Lowest Of K Scores | [sliding_window/1984_minimum_difference_between_highest_and_lowest_of_k_scores.py](sliding_window/1984_minimum_difference_between_highest_and_lowest_of_k_scores.py) |
+| 2379 | Minimum Recolors To Get K Consecutive Black Blocks | [sliding_window/2379_minimum_recolors_to_get_k_consecutive_black_blocks.py](sliding_window/2379_minimum_recolors_to_get_k_consecutive_black_blocks.py) |
 
 ### Prefix Sum  (`prefix_sum/`)  — 6 problems
 
@@ -89,7 +107,7 @@ dsa-leetcode/
 | 724 | Find Pivot Index | [prefix_sum/0724_find_pivot_index.py](prefix_sum/0724_find_pivot_index.py) |
 | 974 | Subarray Sums Divisible By K | [prefix_sum/0974_subarray_sums_divisible_by_k.py](prefix_sum/0974_subarray_sums_divisible_by_k.py) |
 
-### Binary Search  (`binary_search/`)  — 8 problems
+### Binary Search  (`binary_search/`)  — 9 problems
 
 | # | Problem | File |
 |---|---------|------|
@@ -99,10 +117,11 @@ dsa-leetcode/
 | 278 | First Bad Version | [binary_search/0278_first_bad_version.py](binary_search/0278_first_bad_version.py) |
 | 367 | Valid Perfect Square | [binary_search/0367_valid_perfect_square.py](binary_search/0367_valid_perfect_square.py) |
 | 704 | Binary Search | [binary_search/0704_binary_search.py](binary_search/0704_binary_search.py) |
+| 744 | Find Smallest Letter Greater Than Target | [binary_search/0744_find_smallest_letter_greater_than_target.py](binary_search/0744_find_smallest_letter_greater_than_target.py) |
 | 875 | Koko Eating Bananas | [binary_search/0875_koko_eating_bananas.py](binary_search/0875_koko_eating_bananas.py) |
 | 1011 | Capacity To Ship Packages Within D Days | [binary_search/1011_capacity_to_ship_packages_within_d_days.py](binary_search/1011_capacity_to_ship_packages_within_d_days.py) |
 
-### Tree  (`trees/`)  — 9 problems
+### Tree  (`trees/`)  — 14 problems
 
 | # | Problem | File |
 |---|---------|------|
@@ -111,12 +130,17 @@ dsa-leetcode/
 | 101 | Symmetric Tree | [trees/0101_symmetric_tree.py](trees/0101_symmetric_tree.py) |
 | 104 | Maximum Depth Of Binary Tree | [trees/0104_maximum_depth_of_binary_tree.py](trees/0104_maximum_depth_of_binary_tree.py) |
 | 110 | Balanced Binary Tree | [trees/0110_balanced_binary_tree.py](trees/0110_balanced_binary_tree.py) |
+| 111 | Minimum Depth Of Binary Tree | [trees/0111_minimum_depth_of_binary_tree.py](trees/0111_minimum_depth_of_binary_tree.py) |
 | 112 | Path Sum | [trees/0112_path_sum.py](trees/0112_path_sum.py) |
 | 226 | Invert Binary Tree | [trees/0226_invert_binary_tree.py](trees/0226_invert_binary_tree.py) |
+| 404 | Sum Of Left Leaves | [trees/0404_sum_of_left_leaves.py](trees/0404_sum_of_left_leaves.py) |
 | 543 | Diameter Of Binary Tree | [trees/0543_diameter_of_binary_tree.py](trees/0543_diameter_of_binary_tree.py) |
 | 572 | Subtree Of Another Tree | [trees/0572_subtree_of_another_tree.py](trees/0572_subtree_of_another_tree.py) |
+| 617 | Merge Two Binary Trees | [trees/0617_merge_two_binary_trees.py](trees/0617_merge_two_binary_trees.py) |
+| 637 | Average Of Levels In Binary Tree | [trees/0637_average_of_levels_in_binary_tree.py](trees/0637_average_of_levels_in_binary_tree.py) |
+| 700 | Search In A Binary Search Tree | [trees/0700_search_in_a_binary_search_tree.py](trees/0700_search_in_a_binary_search_tree.py) |
 
-### Graph  (`graphs/`)  — 7 problems
+### Graph  (`graphs/`)  — 9 problems
 
 | # | Problem | File |
 |---|---------|------|
@@ -126,9 +150,11 @@ dsa-leetcode/
 | 695 | Max Area Of Island | [graphs/0695_max_area_of_island.py](graphs/0695_max_area_of_island.py) |
 | 733 | Flood Fill | [graphs/0733_flood_fill.py](graphs/0733_flood_fill.py) |
 | 994 | Rotting Oranges | [graphs/0994_rotting_oranges.py](graphs/0994_rotting_oranges.py) |
+| 997 | Find The Town Judge | [graphs/0997_find_the_town_judge.py](graphs/0997_find_the_town_judge.py) |
+| 1791 | Find Center Of Star Graph | [graphs/1791_find_center_of_star_graph.py](graphs/1791_find_center_of_star_graph.py) |
 | 1971 | Find If Path Exists In Graph | [graphs/1971_find_if_path_exists_in_graph.py](graphs/1971_find_if_path_exists_in_graph.py) |
 
-### Dynamic Programming  (`dp/`)  — 10 problems
+### Dynamic Programming  (`dp/`)  — 11 problems
 
 | # | Problem | File |
 |---|---------|------|
@@ -137,6 +163,7 @@ dsa-leetcode/
 | 198 | House Robber | [dp/0198_house_robber.py](dp/0198_house_robber.py) |
 | 213 | House Robber II | [dp/0213_house_robber_ii.py](dp/0213_house_robber_ii.py) |
 | 322 | Coin Change | [dp/0322_coin_change.py](dp/0322_coin_change.py) |
+| 338 | Counting Bits | [dp/0338_counting_bits.py](dp/0338_counting_bits.py) |
 | 377 | Combination Sum IV | [dp/0377_combination_sum_iv.py](dp/0377_combination_sum_iv.py) |
 | 509 | Fibonacci Number | [dp/0509_fibonacci_number.py](dp/0509_fibonacci_number.py) |
 | 518 | Coin Change II | [dp/0518_coin_change_ii.py](dp/0518_coin_change_ii.py) |
