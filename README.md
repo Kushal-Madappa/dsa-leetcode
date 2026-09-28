@@ -4,9 +4,9 @@ My personal LeetCode solution log. All solutions are in **Python 3**, written in
 the exact `class Solution` template LeetCode expects — each file can be pasted
 into the LeetCode editor and submitted directly.
 
-**Problems solved: 166**
+**Problems solved: 203**
 
-Currently working through the [LeetCode 75 study plan](https://leetcode.com/studyplan/leetcode-75/) in order.
+🏆 **LC 75 — completed.**  Currently progressing through the [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/) study plan.
 
 ## Structure
 
@@ -18,6 +18,7 @@ dsa-leetcode/
 ├── two_pointers      # Two Pointers
 ├── sliding_window    # Sliding Window
 ├── prefix_sum        # Prefix Sum
+├── matrix            # Matrix
 ├── stack             # Stack
 ├── queue             # Queue
 ├── linked_list       # Linked List
@@ -35,22 +36,31 @@ dsa-leetcode/
 
 ## Solution log
 
-### Array  (`arrays/`)  — 18 problems
+### Array  (`arrays/`)  — 27 problems
 
 | # | Problem | File |
 |---|---------|------|
 | 1 | Two Sum | [arrays/0001_two_sum.py](arrays/0001_two_sum.py) |
 | 26 | Remove Duplicates From Sorted Array | [arrays/0026_remove_duplicates_from_sorted_array.py](arrays/0026_remove_duplicates_from_sorted_array.py) |
 | 27 | Remove Element | [arrays/0027_remove_element.py](arrays/0027_remove_element.py) |
+| 42 | Trapping Rain Water | [arrays/0042_trapping_rain_water.py](arrays/0042_trapping_rain_water.py) |
+| 45 | Jump Game II | [arrays/0045_jump_game_ii.py](arrays/0045_jump_game_ii.py) |
+| 55 | Jump Game | [arrays/0055_jump_game.py](arrays/0055_jump_game.py) |
 | 66 | Plus One | [arrays/0066_plus_one.py](arrays/0066_plus_one.py) |
+| 80 | Remove Duplicates From Sorted Array II | [arrays/0080_remove_duplicates_from_sorted_array_ii.py](arrays/0080_remove_duplicates_from_sorted_array_ii.py) |
 | 88 | Merge Sorted Array | [arrays/0088_merge_sorted_array.py](arrays/0088_merge_sorted_array.py) |
 | 118 | Pascals Triangle | [arrays/0118_pascals_triangle.py](arrays/0118_pascals_triangle.py) |
 | 121 | Best Time To Buy And Sell Stock | [arrays/0121_best_time_to_buy_and_sell_stock.py](arrays/0121_best_time_to_buy_and_sell_stock.py) |
+| 122 | Best Time To Buy And Sell Stock II | [arrays/0122_best_time_to_buy_and_sell_stock_ii.py](arrays/0122_best_time_to_buy_and_sell_stock_ii.py) |
+| 134 | Gas Station | [arrays/0134_gas_station.py](arrays/0134_gas_station.py) |
+| 135 | Candy | [arrays/0135_candy.py](arrays/0135_candy.py) |
 | 189 | Rotate Array | [arrays/0189_rotate_array.py](arrays/0189_rotate_array.py) |
 | 217 | Contains Duplicate | [arrays/0217_contains_duplicate.py](arrays/0217_contains_duplicate.py) |
 | 238 | Product Of Array Except Self | [arrays/0238_product_of_array_except_self.py](arrays/0238_product_of_array_except_self.py) |
 | 268 | Missing Number | [arrays/0268_missing_number.py](arrays/0268_missing_number.py) |
+| 274 | H Index | [arrays/0274_h_index.py](arrays/0274_h_index.py) |
 | 334 | Increasing Triplet Subsequence | [arrays/0334_increasing_triplet_subsequence.py](arrays/0334_increasing_triplet_subsequence.py) |
+| 380 | Insert Delete Getrandom O1 | [arrays/0380_insert_delete_getrandom_o1.py](arrays/0380_insert_delete_getrandom_o1.py) |
 | 448 | Find All Numbers Disappeared In An Array | [arrays/0448_find_all_numbers_disappeared_in_an_array.py](arrays/0448_find_all_numbers_disappeared_in_an_array.py) |
 | 485 | Max Consecutive Ones | [arrays/0485_max_consecutive_ones.py](arrays/0485_max_consecutive_ones.py) |
 | 605 | Can Place Flowers | [arrays/0605_can_place_flowers.py](arrays/0605_can_place_flowers.py) |
@@ -81,14 +91,17 @@ dsa-leetcode/
 | 2215 | Find The Difference Of Two Arrays | [hashing/2215_find_the_difference_of_two_arrays.py](hashing/2215_find_the_difference_of_two_arrays.py) |
 | 2352 | Equal Row And Column Pairs | [hashing/2352_equal_row_and_column_pairs.py](hashing/2352_equal_row_and_column_pairs.py) |
 
-### String  (`strings/`)  — 12 problems
+### String  (`strings/`)  — 15 problems
 
 | # | Problem | File |
 |---|---------|------|
+| 6 | Zigzag Conversion | [strings/0006_zigzag_conversion.py](strings/0006_zigzag_conversion.py) |
+| 12 | Integer To Roman | [strings/0012_integer_to_roman.py](strings/0012_integer_to_roman.py) |
 | 13 | Roman To Integer | [strings/0013_roman_to_integer.py](strings/0013_roman_to_integer.py) |
 | 14 | Longest Common Prefix | [strings/0014_longest_common_prefix.py](strings/0014_longest_common_prefix.py) |
 | 28 | Find The Index Of The First Occurrence In A String | [strings/0028_find_the_index_of_the_first_occurrence_in_a_string.py](strings/0028_find_the_index_of_the_first_occurrence_in_a_string.py) |
 | 58 | Length Of Last Word | [strings/0058_length_of_last_word.py](strings/0058_length_of_last_word.py) |
+| 68 | Text Justification | [strings/0068_text_justification.py](strings/0068_text_justification.py) |
 | 151 | Reverse Words In A String | [strings/0151_reverse_words_in_a_string.py](strings/0151_reverse_words_in_a_string.py) |
 | 242 | Valid Anagram | [strings/0242_valid_anagram.py](strings/0242_valid_anagram.py) |
 | 345 | Reverse Vowels Of A String | [strings/0345_reverse_vowels_of_a_string.py](strings/0345_reverse_vowels_of_a_string.py) |
@@ -113,11 +126,14 @@ dsa-leetcode/
 | 977 | Squares Of A Sorted Array | [two_pointers/0977_squares_of_a_sorted_array.py](two_pointers/0977_squares_of_a_sorted_array.py) |
 | 1679 | Max Number Of K Sum Pairs | [two_pointers/1679_max_number_of_k_sum_pairs.py](two_pointers/1679_max_number_of_k_sum_pairs.py) |
 
-### Sliding Window  (`sliding_window/`)  — 8 problems
+### Sliding Window  (`sliding_window/`)  — 11 problems
 
 | # | Problem | File |
 |---|---------|------|
 | 3 | Longest Substring Without Repeating Characters | [sliding_window/0003_longest_substring_without_repeating_characters.py](sliding_window/0003_longest_substring_without_repeating_characters.py) |
+| 30 | Substring With Concatenation Of All Words | [sliding_window/0030_substring_with_concatenation_of_all_words.py](sliding_window/0030_substring_with_concatenation_of_all_words.py) |
+| 76 | Minimum Window Substring | [sliding_window/0076_minimum_window_substring.py](sliding_window/0076_minimum_window_substring.py) |
+| 209 | Minimum Size Subarray Sum | [sliding_window/0209_minimum_size_subarray_sum.py](sliding_window/0209_minimum_size_subarray_sum.py) |
 | 643 | Maximum Average Subarray I | [sliding_window/0643_maximum_average_subarray_i.py](sliding_window/0643_maximum_average_subarray_i.py) |
 | 1004 | Max Consecutive Ones III | [sliding_window/1004_max_consecutive_ones_iii.py](sliding_window/1004_max_consecutive_ones_iii.py) |
 | 1456 | Maximum Number Of Vowels In A Substring | [sliding_window/1456_maximum_number_of_vowels_in_a_substring.py](sliding_window/1456_maximum_number_of_vowels_in_a_substring.py) |
@@ -138,10 +154,25 @@ dsa-leetcode/
 | 974 | Subarray Sums Divisible By K | [prefix_sum/0974_subarray_sums_divisible_by_k.py](prefix_sum/0974_subarray_sums_divisible_by_k.py) |
 | 1732 | Find The Highest Altitude | [prefix_sum/1732_find_the_highest_altitude.py](prefix_sum/1732_find_the_highest_altitude.py) |
 
-### Stack  (`stack/`)  — 3 problems
+### Matrix  (`matrix/`)  — 5 problems
 
 | # | Problem | File |
 |---|---------|------|
+| 36 | Valid Sudoku | [matrix/0036_valid_sudoku.py](matrix/0036_valid_sudoku.py) |
+| 48 | Rotate Image | [matrix/0048_rotate_image.py](matrix/0048_rotate_image.py) |
+| 54 | Spiral Matrix | [matrix/0054_spiral_matrix.py](matrix/0054_spiral_matrix.py) |
+| 73 | Set Matrix Zeroes | [matrix/0073_set_matrix_zeroes.py](matrix/0073_set_matrix_zeroes.py) |
+| 289 | Game Of Life | [matrix/0289_game_of_life.py](matrix/0289_game_of_life.py) |
+
+### Stack  (`stack/`)  — 8 problems
+
+| # | Problem | File |
+|---|---------|------|
+| 20 | Valid Parentheses | [stack/0020_valid_parentheses.py](stack/0020_valid_parentheses.py) |
+| 71 | Simplify Path | [stack/0071_simplify_path.py](stack/0071_simplify_path.py) |
+| 150 | Evaluate Reverse Polish Notation | [stack/0150_evaluate_reverse_polish_notation.py](stack/0150_evaluate_reverse_polish_notation.py) |
+| 155 | Min Stack | [stack/0155_min_stack.py](stack/0155_min_stack.py) |
+| 224 | Basic Calculator | [stack/0224_basic_calculator.py](stack/0224_basic_calculator.py) |
 | 394 | Decode String | [stack/0394_decode_string.py](stack/0394_decode_string.py) |
 | 735 | Asteroid Collision | [stack/0735_asteroid_collision.py](stack/0735_asteroid_collision.py) |
 | 2390 | Removing Stars From A String | [stack/2390_removing_stars_from_a_string.py](stack/2390_removing_stars_from_a_string.py) |
@@ -153,13 +184,21 @@ dsa-leetcode/
 | 649 | Dota2 Senate | [queue/0649_dota2_senate.py](queue/0649_dota2_senate.py) |
 | 933 | Number Of Recent Calls | [queue/0933_number_of_recent_calls.py](queue/0933_number_of_recent_calls.py) |
 
-### Linked List  (`linked_list/`)  — 9 problems
+### Linked List  (`linked_list/`)  — 17 problems
 
 | # | Problem | File |
 |---|---------|------|
+| 19 | Remove NTH Node From End Of List | [linked_list/0019_remove_nth_node_from_end_of_list.py](linked_list/0019_remove_nth_node_from_end_of_list.py) |
 | 21 | Merge Two Sorted Lists | [linked_list/0021_merge_two_sorted_lists.py](linked_list/0021_merge_two_sorted_lists.py) |
+| 25 | Reverse Nodes In K Group | [linked_list/0025_reverse_nodes_in_k_group.py](linked_list/0025_reverse_nodes_in_k_group.py) |
+| 61 | Rotate List | [linked_list/0061_rotate_list.py](linked_list/0061_rotate_list.py) |
+| 82 | Remove Duplicates From Sorted List II | [linked_list/0082_remove_duplicates_from_sorted_list_ii.py](linked_list/0082_remove_duplicates_from_sorted_list_ii.py) |
 | 83 | Remove Duplicates From Sorted List | [linked_list/0083_remove_duplicates_from_sorted_list.py](linked_list/0083_remove_duplicates_from_sorted_list.py) |
+| 86 | Partition List | [linked_list/0086_partition_list.py](linked_list/0086_partition_list.py) |
+| 92 | Reverse Linked List II | [linked_list/0092_reverse_linked_list_ii.py](linked_list/0092_reverse_linked_list_ii.py) |
+| 138 | Copy List With Random Pointer | [linked_list/0138_copy_list_with_random_pointer.py](linked_list/0138_copy_list_with_random_pointer.py) |
 | 141 | Linked List Cycle | [linked_list/0141_linked_list_cycle.py](linked_list/0141_linked_list_cycle.py) |
+| 146 | Lru Cache | [linked_list/0146_lru_cache.py](linked_list/0146_lru_cache.py) |
 | 206 | Reverse Linked List | [linked_list/0206_reverse_linked_list.py](linked_list/0206_reverse_linked_list.py) |
 | 234 | Palindrome Linked List | [linked_list/0234_palindrome_linked_list.py](linked_list/0234_palindrome_linked_list.py) |
 | 328 | Odd Even Linked List | [linked_list/0328_odd_even_linked_list.py](linked_list/0328_odd_even_linked_list.py) |
@@ -283,16 +322,20 @@ dsa-leetcode/
 | 208 | Implement Trie Prefix Tree | [trie/0208_implement_trie_prefix_tree.py](trie/0208_implement_trie_prefix_tree.py) |
 | 1268 | Search Suggestions System | [trie/1268_search_suggestions_system.py](trie/1268_search_suggestions_system.py) |
 
-### Intervals  (`intervals/`)  — 2 problems
+### Intervals  (`intervals/`)  — 5 problems
 
 | # | Problem | File |
 |---|---------|------|
+| 56 | Merge Intervals | [intervals/0056_merge_intervals.py](intervals/0056_merge_intervals.py) |
+| 57 | Insert Interval | [intervals/0057_insert_interval.py](intervals/0057_insert_interval.py) |
+| 228 | Summary Ranges | [intervals/0228_summary_ranges.py](intervals/0228_summary_ranges.py) |
 | 435 | Non Overlapping Intervals | [intervals/0435_non_overlapping_intervals.py](intervals/0435_non_overlapping_intervals.py) |
 | 452 | Minimum Number Of Arrows To Burst Balloons | [intervals/0452_minimum_number_of_arrows_to_burst_balloons.py](intervals/0452_minimum_number_of_arrows_to_burst_balloons.py) |
 
-### Monotonic Stack  (`monotonic_stack/`)  — 1 problem
+### Monotonic Stack  (`monotonic_stack/`)  — 2 problems
 
 | # | Problem | File |
 |---|---------|------|
 | 739 | Daily Temperatures | [monotonic_stack/0739_daily_temperatures.py](monotonic_stack/0739_daily_temperatures.py) |
+| 901 | Online Stock Span | [monotonic_stack/0901_online_stock_span.py](monotonic_stack/0901_online_stock_span.py) |
 
