@@ -4,7 +4,7 @@ My personal LeetCode solution log. All solutions are in **Python 3**, written in
 the exact `class Solution` template LeetCode expects — each file can be pasted
 into the LeetCode editor and submitted directly.
 
-**Problems solved: 203**
+**Problems solved: 214**
 
 🏆 **LC 75 — completed.**  Currently progressing through the [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/) study plan.
 
@@ -206,20 +206,31 @@ dsa-leetcode/
 | 2095 | Delete The Middle Node Of A Linked List | [linked_list/2095_delete_the_middle_node_of_a_linked_list.py](linked_list/2095_delete_the_middle_node_of_a_linked_list.py) |
 | 2130 | Maximum Twin Sum Of A Linked List | [linked_list/2130_maximum_twin_sum_of_a_linked_list.py](linked_list/2130_maximum_twin_sum_of_a_linked_list.py) |
 
-### Tree  (`trees/`)  — 25 problems
+### Tree  (`trees/`)  — 36 problems
 
 | # | Problem | File |
 |---|---------|------|
 | 94 | Binary Tree Inorder Traversal | [trees/0094_binary_tree_inorder_traversal.py](trees/0094_binary_tree_inorder_traversal.py) |
 | 100 | Same Tree | [trees/0100_same_tree.py](trees/0100_same_tree.py) |
 | 101 | Symmetric Tree | [trees/0101_symmetric_tree.py](trees/0101_symmetric_tree.py) |
+| 102 | Binary Tree Level Order Traversal | [trees/0102_binary_tree_level_order_traversal.py](trees/0102_binary_tree_level_order_traversal.py) |
+| 103 | Binary Tree Zigzag Level Order Traversal | [trees/0103_binary_tree_zigzag_level_order_traversal.py](trees/0103_binary_tree_zigzag_level_order_traversal.py) |
 | 104 | Maximum Depth Of Binary Tree | [trees/0104_maximum_depth_of_binary_tree.py](trees/0104_maximum_depth_of_binary_tree.py) |
+| 105 | Construct Binary Tree From Preorder And Inorder Traversal | [trees/0105_construct_binary_tree_from_preorder_and_inorder_traversal.py](trees/0105_construct_binary_tree_from_preorder_and_inorder_traversal.py) |
+| 106 | Construct Binary Tree From Inorder And Postorder Traversal | [trees/0106_construct_binary_tree_from_inorder_and_postorder_traversal.py](trees/0106_construct_binary_tree_from_inorder_and_postorder_traversal.py) |
 | 108 | Convert Sorted Array To BST | [trees/0108_convert_sorted_array_to_bst.py](trees/0108_convert_sorted_array_to_bst.py) |
 | 110 | Balanced Binary Tree | [trees/0110_balanced_binary_tree.py](trees/0110_balanced_binary_tree.py) |
 | 111 | Minimum Depth Of Binary Tree | [trees/0111_minimum_depth_of_binary_tree.py](trees/0111_minimum_depth_of_binary_tree.py) |
 | 112 | Path Sum | [trees/0112_path_sum.py](trees/0112_path_sum.py) |
+| 114 | Flatten Binary Tree To Linked List | [trees/0114_flatten_binary_tree_to_linked_list.py](trees/0114_flatten_binary_tree_to_linked_list.py) |
+| 117 | Populating Next Right Pointers In Each Node II | [trees/0117_populating_next_right_pointers_in_each_node_ii.py](trees/0117_populating_next_right_pointers_in_each_node_ii.py) |
+| 124 | Binary Tree Maximum Path Sum | [trees/0124_binary_tree_maximum_path_sum.py](trees/0124_binary_tree_maximum_path_sum.py) |
+| 129 | Sum Root To Leaf Numbers | [trees/0129_sum_root_to_leaf_numbers.py](trees/0129_sum_root_to_leaf_numbers.py) |
+| 173 | Binary Search Tree Iterator | [trees/0173_binary_search_tree_iterator.py](trees/0173_binary_search_tree_iterator.py) |
 | 199 | Binary Tree Right Side View | [trees/0199_binary_tree_right_side_view.py](trees/0199_binary_tree_right_side_view.py) |
+| 222 | Count Complete Tree Nodes | [trees/0222_count_complete_tree_nodes.py](trees/0222_count_complete_tree_nodes.py) |
 | 226 | Invert Binary Tree | [trees/0226_invert_binary_tree.py](trees/0226_invert_binary_tree.py) |
+| 230 | KTH Smallest Element In A BST | [trees/0230_kth_smallest_element_in_a_bst.py](trees/0230_kth_smallest_element_in_a_bst.py) |
 | 235 | Lowest Common Ancestor Of A BST | [trees/0235_lowest_common_ancestor_of_a_bst.py](trees/0235_lowest_common_ancestor_of_a_bst.py) |
 | 236 | Lowest Common Ancestor Of A Binary Tree | [trees/0236_lowest_common_ancestor_of_a_binary_tree.py](trees/0236_lowest_common_ancestor_of_a_binary_tree.py) |
 | 257 | Binary Tree Paths | [trees/0257_binary_tree_paths.py](trees/0257_binary_tree_paths.py) |
